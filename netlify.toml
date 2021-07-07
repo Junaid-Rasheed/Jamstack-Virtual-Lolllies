@@ -1,4 +1,5 @@
+
 [build]
-    command = "npm build && cd functions/newLolly && npm install"
+    command = "npm run build && cd functions/newLolly && npm install"
     publish= "public"
     functions = "functions"

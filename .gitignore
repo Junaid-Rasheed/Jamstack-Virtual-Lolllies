@@ -1,4 +1,8 @@
 # Logs
+.cache
+node_modules
+public
+
 logs
 *.log
 npm-debug.log*
