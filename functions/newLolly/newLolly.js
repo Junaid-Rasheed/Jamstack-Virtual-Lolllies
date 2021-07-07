@@ -47,7 +47,7 @@ const resolvers = {
           data : args
         })
       )
-      console.log('id is',result.lollyPath)
+      
       // console.log("result:", result)
       // console.log("result:", result.data)
       return result.data
