@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+  
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(76, 69, 116);
+    color: white;
+}
+
+.listlollies{
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+
+.listlollies .lollipop , .lollyFormDiv .lollipop{
+    height: 350px;
+   
+}
+
+.lollyFormDiv{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: center;
+}
+
+.lollyFlavorDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.colorPicker{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+}
